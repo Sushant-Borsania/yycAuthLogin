@@ -42,9 +42,8 @@ class LoginMain extends Component {
       this.signup(response, "google");
     };
     return (
-      // PXdgG0GIbp6Oc1pZSZ0QPzob
       <GoogleLogin
-        clientId="768310024356-hhaoia7sk7no3u2nhv5dh2permma52vq.apps.googleusercontent.com"
+        clientId="API_KEY"
         buttonText="Google Login"
         onSuccess={responseGoogle}
         onFailure={responseGoogle}
